@@ -1,0 +1,20 @@
+/* I added in additional classes to assist in understanding how they are appplied.  */
+
+.avatar{
+ border: 5px solid black;
+}
+
+.original{
+ border: 5px dotted red;
+}
+
+/* actual answer */
+.avatar.proportioned{
+ width: 300px;
+ height: auto;
+}
+
+.avatar.distorted{
+ width: 200px;
+ height: 400px;
+}
